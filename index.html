@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./img/Rojito.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/atm3sgg.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Donde Mary</title>
+</head>
+<body>
+    <main class="contenedor">
+        <section class="bio">
+            <img src="./img/Rojito.png" alt="Foto de Jhonatan y Laura" class="Foto">
+            <h1 class="menu">MENÚ</h1>
+            <h2 class="seleccion">SELECCIONE UN PLATO</h2>
+            <!-- SECCIÓN DESAYUNOS -->
+            <h2 class="desayuno">DESAYUNOS</h2>
+            <table class="lista" id="desayunos">
+            <thead>
+                <tr>
+                <th class="cant">Cant.</th>
+                <th class="plato">Plato</th>
+                <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="des1" data-item="Patacón con queso - $6.000">  <td>
+                        <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+                    </td><td>Patacón con queso</td><td>$6.000</td></tr>
+                <tr id="des2" data-item="Yuca con queso - $6.000">  <td>
+                    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+                </td><td>Yuca con queso</td><td>$6.000</td></tr>
+                <tr id="des3" data-item="Patacón con huevos revueltos - $6.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Patacón con huevos revueltos</td><td>$6.000</td></tr>
+                <tr id="des4" data-item="Yuca con huevos revueltos - $6.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Yuca con huevos revueltos</td><td>$6.000</td></tr>
+                <tr id="des5" data-item="Patacón con huevos revueltos y chorizo - $7.000"><td>
+   <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Patacón con huevos revueltos y chorizo</td><td>$7.000</td></tr>
+                <tr id="des6" data-item="Yuca con huevos revueltos y chorizo - $7.000"><td>
+   <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Yuca con huevos revueltos y chorizo</td><td>$7.000</td></tr>
+                <tr id="des7" data-item="Patacón con carne desmechada - $7.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Patacón con carne desmechada</td><td>$7.000</td></tr>
+                <tr id="des8" data-item="Yuca con carne desmechada - $7.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Yuca con carne desmechada</td><td>$7.000</td></tr>
+                <tr id="des9" data-item="Patacón con hígado encebollado - $7.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Patacón con hígado encebollado</td><td>$7.000</td></tr>
+                <tr id="des10" data-item="Yuca con hígado encebollado - $7.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Yuca con hígado encebollado</td><td>$7.000</td></tr>
+                <tr id="des11" data-item="Patacón con carne molida - $7.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Patacón con carne molida</td><td>$7.000</td></tr>
+                <tr id="des12" data-item="Yuca con carne molida - $7.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Yuca con carne molida</td><td>$7.000</td></tr>
+                <tr id="des13" data-item="Patacón con chicharrón - $7.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Patacón con chicharrón</td><td>$7.000</td></tr>
+                <tr id="des14" data-item="Yuca con chicharrón - $7.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Yuca con chicharrón</td><td>$7.000</td></tr>
+                <tr id="des15" data-item="Caldo de costilla - $8.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Caldo de costilla</td><td>$8.000</td></tr>
+            </tbody>
+            </table>
+
+            <!-- SECCIÓN ALMUERZOS -->
+            <h2 class="almuerzo">ALMUERZOS</h2>
+            <table class="lista" id="almuerzos">
+            <thead>
+                <tr>
+                <th class="cant">Cant.</th>
+                <th class="plato2">Plato</th>
+                <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Almuerzos comunes a $10.000 -->
+                <tr id="alm1" data-item="Carne molida - $10.000"><td >
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Carne molida</td><td>$10.000</td></tr>
+                <tr id="alm2" data-item="Carne guisada - $10.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Carne guisada</td><td>$10.000</td></tr>
+                <tr id="alm3" data-item="Carne desmechada - $10.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Carne desmechada</td><td>$10.000</td></tr>
+                <tr id="alm4" data-item="Carne en bistec - $10.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Carne en bistec</td><td>$10.000</td></tr>
+                <tr id="alm5" data-item="Pollo guisado - $10.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Pollo guisado</td><td>$10.000</td></tr>
+                <tr id="alm6" data-item="Pollo frito - $10.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Pollo frito</td><td>$10.000</td></tr>
+                <tr id="alm7" data-item="Panza guisada - $10.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Panza guisada</td><td>$10.000</td></tr>
+
+                <!-- Platos especiales a $15.000 -->
+                <tr id="alm8" data-item="Mojarra en salsa - $15.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Mojarra en salsa</td><td>$15.000</td></tr>
+                <tr id="alm9" data-item="Mojarra frita - $15.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Mojarra frita</td><td>$15.000</td></tr>
+                <tr id="alm10" data-item="Gallina criolla - $15.000"><td>
+    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+  </td><td>Gallina criolla</td><td>$15.000</td></tr>
+                <tr id="alm11" data-item="Muchacho en salsa - $15.000"><td>
+                        <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+                    </td><td>Muchacho en salsa</td><td>$15.000</td></tr>
+                <tr id="alm12" data-item="Chivo guisado - $15.000"><td>
+                    <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+                </td><td>Chivo guisado</td><td>$15.000</td></tr>
+                <tr id="alm13" data-item="Bagre en salsa - $15.000"><td>
+                   <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+                </td><td>Bagre en salsa</td><td>$15.000</td></tr>
+                <tr id="alm14" data-item="Pechuga asada - $15.000"><td>
+                   <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+                </td><td>Pechuga asada</td><td>$15.000</td></tr>
+
+                <tr id="alm15" data-item="Carne asada - $15.000"><td>
+                   <div class="contador">
+      <button class="btn-menos">-</button>
+      <span class="cantidad">1</span>
+      <button class="btn-mas">+</button>
+    </div>
+                </td><td>Carne asada</td><td>$15.000</td></tr>
+            </tbody>
+            </table>
+        </section>
+        <section>
+            <nav class="links">
+                <a id="whatsappLink" class="boton" target="_blank">Hacer mi pedido</a>
+            </nav>
+        </section>
+    </main>
+
+    <script>
+  const telefono = '573023023584';
+  const whatsappLink = document.getElementById('whatsappLink');
+
+  const filas = document.querySelectorAll('#desayunos tbody tr, #almuerzos tbody tr');
+
+  filas.forEach(fila => {
+    const contador = fila.querySelector('.contador');
+    const btnMas = fila.querySelector('.btn-mas');
+    const btnMenos = fila.querySelector('.btn-menos');
+    const cantidadSpan = fila.querySelector('.cantidad');
+    let cantidad = 1;
+
+    // Manejo de selección
+    fila.addEventListener('click', (e) => {
+      if (e.target.classList.contains('btn-mas') || e.target.classList.contains('btn-menos')) {
+        e.stopPropagation(); // Evita conflicto con click principal
+        return;
+      }
+
+      fila.classList.toggle('selected');
+
+      if (fila.classList.contains('selected')) {
+        contador.style.display = 'inline-flex';
+        fila.dataset.cantidad = cantidad;
+      } else {
+        contador.style.display = 'none';
+        cantidad = 1;
+        cantidadSpan.textContent = cantidad;
+        fila.dataset.cantidad = cantidad;
+      }
+    });
+
+    // Botón +
+    btnMas.addEventListener('click', () => {
+      if (cantidad < 20) {
+        cantidad++;
+        cantidadSpan.textContent = cantidad;
+        if (fila.classList.contains('selected')) {
+          fila.dataset.cantidad = cantidad;
+        }
+      }
+    });
+
+    // Botón -
+    btnMenos.addEventListener('click', () => {
+      if (cantidad > 1) {
+        cantidad--;
+        cantidadSpan.textContent = cantidad;
+        if (fila.classList.contains('selected')) {
+          fila.dataset.cantidad = cantidad;
+        }
+      }
+    });
+  });
+
+  // Generar mensaje WhatsApp
+  whatsappLink.addEventListener('click', () => {
+    const seleccionados = document.querySelectorAll('tr.selected');
+
+    if (seleccionados.length === 0) {
+      alert('Por favor selecciona al menos un plato.');
+      return;
+    }
+
+    const platos = Array.from(seleccionados).map(fila => {
+      const cantidad = fila.dataset.cantidad || '1';
+      const item = fila.dataset.item;
+      return `(${cantidad}) ${item}`;
+    }).join('\n');
+
+    const mensaje = `Hola, quiero hacer el siguiente pedido:\n${platos}\n\nA nombre de:\nDirección:`;
+    const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+    whatsappLink.href = url;
+  });
+</script>
+
+
+
+</body>
+</html>

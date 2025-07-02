@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', serif;
+    /* background-image: url(../img/diseno.jpg);
+    background-size: cover;
+    background-position: top; */
+    background: #AD1917;
+    
+    /* height: 90vw; */
+    display: flex;
+    justify-content: center;
+    /* &::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.081);
+        position: absolute;
+        top: 0;
+        left: 0;
+        backdrop-filter: blur(1%);
+        z-index: 0;
+
+    } */
+}
+
+.contenedor{
+    background: #f2f2f2;
+    box-shadow: rgb(91, 20, 20) 0px 5px 20px 7px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  margin: 10px;
+    border-radius: 8px;
+    width: 800px;
+    /* padding: clamp(2px, 2vw , 100px); */
+    /* height: 90vw; */
+    /* max-width: 700px; */
+    /* margin: auto;
+    margin-left: 10px; */
+    /* position: relative; */
+    z-index: 1;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* justify-content: end; */
+
+    .bio{
+        text-align: center;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px; */
+        .menu{
+            font-family: "aileron", sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+        }
+        .seleccion{
+            font-family: "aileron", sans-serif;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .desayuno{
+            font-family: "aileron", sans-serif;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+         .almuerzo{
+            font-family: "aileron", sans-serif;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+        .lista{
+            font-family: "aileron", sans-serif;
+            font-weight: 400;
+            text-align: start;
+            width: 80%;
+            margin: 0 auto;
+            
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* gap: 5px; */
+            /* justify-content: start; */
+            .cant{
+                width: 68px;
+            }
+            .plato{
+                width: clamp(190px, 30vw , 500px);
+            }
+            .plato2{
+                width: clamp(190px, 45vw , 450px);
+            }
+              .contador {
+                    display: none;
+                }
+            .btn-mas, .btn-menos {
+                    padding: 2px 8px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    border: none;
+                    background-color: #ccc;
+                    border-radius: 4px;
+                    margin: 0 3px;
+                }
+                 .cantidad {
+                    font-weight: bold;
+                }
+             tr {
+            cursor: pointer;
+            transition: background-color 0.2s;
+           
+            }
+             /* tr.selected .contador { */
+                /* width: 90%; */
+                /* display: inline-block; */
+                /* align-items: start; */
+                /* gap: 4px; */
+            /* } */
+            tr.selected{
+                background-color: #cdc58b;
+                border-radius: 8px;
+            }
+            td{
+                border-bottom: 1px solid #000;
+                /* display: flex;
+                flex-direction: column; */
+                
+            }
+        }
+
+    }
+      img{
+        width: 300px;
+        /* display: flex;
+        justify-content: center; */
+        text-align: center;
+    }
+
+    .links{
+        display: flex;
+        justify-content: center;
+        /* text-align: center;
+        background: #AD1917;
+        margin:  0 10px 20px 10px;
+        padding: 15px 25px;
+        border-radius: 25px; */
+        
+        .boton{
+            /* text-align: center; */
+            display: inline-block;
+            background: #AD1917;
+            margin:  0 10px 20px 10px;
+            padding: 15px 25px;
+            border-radius: 25px;
+            text-align: center;
+            font-family: "aileron", sans-serif;
+            font-weight: 700;
+            font-size:20px;
+            text-decoration: none;
+            color: #fff;
+            transition: background-color 0.4s ease, transform 0.4s ease;
+            /* margin-bottom: 10px; */
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.05);
+                background-color: #ff0400;
+            }
+        }
+    }
+}
